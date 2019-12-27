@@ -1,0 +1,30 @@
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# fabric
+
+run/
+*-sources
+
+# images
+*.xcf

@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "bannerpppatterns:item/pig_banner_pattern"
+    }
+}
