@@ -3,15 +3,15 @@
   "id": "bannerpppatterns",
   "version": "${version}",
 
-  "name": "Banner++",
+  "name": "Banner++ Patterns",
   "description": "Adds more banner and shield patterns to the game.",
   "authors": [
     "kvverti"
   ],
   "contact": {
-    "homepage": "https://github.com/kvverti/banner-plus-plus-patterns",
-    "sources": "https://github.com/kvverti/banner-plus-plus-patterns",
-    "issues": "https://github.com/kvverti/banner-plus-plus-patterns/issues"
+    "homepage": "https://github.com/kvverti/bannerpp-patterns",
+    "sources": "https://github.com/kvverti/bannerpp-patterns",
+    "issues": "https://github.com/kvverti/bannerpp-patterns/issues"
   },
 
   "license": "MIT",
