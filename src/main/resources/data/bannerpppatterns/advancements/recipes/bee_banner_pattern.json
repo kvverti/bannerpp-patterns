@@ -1,0 +1,27 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "bannerpppatterns:bee_banner_pattern"
+        ]
+    },
+    "criteria": {
+        "has_honeycomb": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    { "item": "minecraft:honeycomb" }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "recipe": "bannerpppatterns:bee_banner_pattern"
+            }
+        }
+    },
+    "requirements": [
+        ["has_honeycomb", "has_the_recipe"]
+    ]
+}

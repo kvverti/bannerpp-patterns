@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        { "item": "minecraft:paper" },
+        { "item": "minecraft:honeycomb" }
+    ],
+    "result": {
+        "item": "bannerpppatterns:bee_banner_pattern"
+    }
+}
