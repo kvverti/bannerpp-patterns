@@ -1,15 +1,15 @@
 package io.github.kvverti.bannerpppatterns;
 
-import io.github.kvverti.bannerpp.api.LoomPattern;
-import io.github.kvverti.bannerpp.api.LoomPatternItem;
-import io.github.kvverti.bannerpp.api.LoomPatterns;
-
-import net.fabricmc.api.ModInitializer;
+import io.github.fablabsmc.fablabs.api.bannerpattern.v1.LoomPattern;
+import io.github.fablabsmc.fablabs.api.bannerpattern.v1.LoomPatternItem;
+import io.github.fablabsmc.fablabs.api.bannerpattern.v1.LoomPatterns;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+
+import net.fabricmc.api.ModInitializer;
 
 public final class BannerppPatterns implements ModInitializer {
 
