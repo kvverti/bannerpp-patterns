@@ -31,4 +31,4 @@ if __name__ == '__main__':
         key = sys.argv[1]
         trans = sys.argv[2]
         for id, name in colors.items():
-            print('"bannerpp.pattern.bannerpp.{0}.{1}": "{2} {3}",'.format(key, id, name, trans))
+            print('"bannerpp.pattern.bannerpppatterns.{0}.{1}": "{2} {3}",'.format(key, id, name, trans))

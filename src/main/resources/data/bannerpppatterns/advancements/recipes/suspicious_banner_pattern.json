@@ -1,0 +1,27 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "bannerpppatterns:suspicious_banner_pattern"
+        ]
+    },
+    "criteria": {
+        "has_stew": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    { "item": "minecraft:suspicious_stew" }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "recipe": "bannerpppatterns:suspicious_banner_pattern"
+            }
+        }
+    },
+    "requirements": [
+        ["has_stew", "has_the_recipe"]
+    ]
+}

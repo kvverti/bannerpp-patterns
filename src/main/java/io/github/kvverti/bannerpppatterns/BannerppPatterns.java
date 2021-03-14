@@ -40,6 +40,7 @@ public final class BannerppPatterns implements ModInitializer {
         registerPattern("bottom_quarter_stripe");
         registerPattern("pig", true);
         registerPattern("bee", true);
+        registerPattern("suspicious", true);
     }
 
     private void registerPattern(String name) {
